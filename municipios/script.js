@@ -21,7 +21,7 @@ fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${uf}/municip
            
         button.addEventListener('click', () => {
             memoria.push(data[i])
-            localStorage.setItem("favoritos", JSON.stringify(memoria))
+            localStorage.setItem(favoritos, JSON.stringify(memoria))
         })
     }
     })

@@ -2,7 +2,7 @@
 for (let i = 0; i < localStorage.getItem("favoritos"); i++) {
     const listItem = document.createElement('li')
 
-    const favoritados = localStorage.getItem("favoritos");
+    const favoritados = localStorage.getItem(favoritos);
 
     const favoritadosObj = JSON.parse(favoritados);
 
